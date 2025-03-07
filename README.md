@@ -18,7 +18,8 @@ Acest proiect îți permite să adaugi cu ușurință sărbătorile din Moldova 
 Dacă dorești doar să adaugi sărbătorile din Moldova direct în calendarul tău, urmează acești pași simpli:
 
 1️⃣ **Descarcă fișierul Festivitati Moldova.ics**:
-   - [Descarcă Festivitati Moldova.ics](link la fișierul tău)
+   - [Descarcă Festivitati Moldova.ics]([Descarcă Festivități Moldova.ics](https://github.com/storm167/Sarbatori_Moldova/raw/main/Festivitati%20Moldova.ics)
+)
 
 2️⃣ **Importă fișierul în aplicația ta de calendar**:
 
@@ -58,7 +59,7 @@ Dacă ești un dezvoltator și dorești să explorezi sau să modifici codul sur
 
 - Este necesar să ai Python 3 instalat pe sistemul tău.
 - Dacă vrei să modifici numărul de ani pentru care generezi sărbătorile, editează fișierul `generate_Easter.py`.
-- Dacă întâmpini probleme sau ai întrebări, deschide un „Issue” pe [GitHub](link GitHub).
+- Dacă întâmpini probleme sau ai întrebări, deschide un „Issue” pe [GitHub](https://github.com/storm167/Sarbatori_Moldova/issues).
 
 ### Contribuie la proiect 🙌:
 
