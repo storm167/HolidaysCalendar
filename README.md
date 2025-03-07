@@ -1,32 +1,53 @@
-# README
+# 📅 Sarbatori Moldova - Calendar .ICS
 
-## Descriere
+## 📝 Descriere
 
-Acest proiect permite generarea și combinarea unui calendar care conține atât sărbători(laice și religioase) cu dată fixă, cât și sărbători care depind de Paștele ortodox.
+Acest proiect generează și combină un calendar `.ICS` care conține:
+✅ **Sărbători naționale și religioase cu dată fixă**
+✅ **Sărbători mobile bazate pe Paștele ortodox**
 
-## Fișiere incluse
+Fișierul final rezultat poate fi importat direct în aplicațiile de calendar (Google Calendar, Apple Calendar, Outlook etc.).
 
-- **HolidaysOriginal.ics**: Conține sărbătorile cu dată fixă, care nu se schimbă în fiecare an.
-- **generate_Easter.py**: Un algoritm care generează un fișier `.ics` cu datele Paștelui ortodox și ale sărbătorilor asociate pentru următorii ani. Numărul exact de ani generați depinde de parametrii scriptului.
-- **merge_calendars.py**: Script care combină sărbătorile din `HolidaysOriginal.ics` cu cele generate de `generate_Easter.py` într-un singur fișier de calendar.
-- **Festivitati Moldova.ics**: Fișierul final care conține calendarul complet, inclusiv sărbătorile fixe și cele legate de Paște. Acest fișier poate fi descărcat și utilizat direct de către utilizatori care nu doresc să modifice codul sursă.
+## 📂 Fișiere incluse
 
-## Instrucțiuni de utilizare 
+- **HolidaysOriginal.ics** – conține sărbătorile cu dată fixă.
+- **generate_Easter.py** – script Python care generează datele sărbătorilor mobile bazate pe Paștele ortodox.
+- **merge_calendars.py** – combină sărbătorile din `HolidaysOriginal.ics` cu cele din `generate_Easter.py`.
+- **Festivitati Moldova.ics** – 📌 **fișierul final** care trebuie descărcat de utilizatorii care nu vor să modifice codul sursă.
 
-1. Rulează **generate_Easter.py** în terminal pentru a genera fișierul `.ics` cu datele Paștelui și ale sărbătorilor asociate.
-   ```sh
-   python3 generate_Easter.py
-   ```
-2. Rulează **merge_calendars.py** pentru a uni sărbătorile fixe cu cele cu dată variabilă.
-   ```sh
-   python3 merge_calendars.py
-   ```
-3. Fișierul generat trebuie salvat pe telefon.
-4. Deschide fișierul pe telefon și adaugă-l la aplicația de calendar pentru a vedea toate sărbătorile într-un singur loc.
+## 🚀 Cum se folosește
 
-## Observații
+1️⃣ **Generează sărbătorile mobile**:
+```sh
+python3 generate_Easter.py
+```
+2️⃣ **Combină toate sărbătorile într-un singur fișier**:
+```sh
+python3 merge_calendars.py
+```
+3️⃣ **Importă fișierul final în calendar**:
+   - Descarcă **Festivitati Moldova.ics**
+   - Deschide-l pe telefon sau PC și adaugă-l în aplicația de calendar.
 
-- Asigură-te că ai un mediu Python instalat.
-- Poți personaliza numărul de ani generați modificând scriptul `generate_Easter.py`.
-- Pentru a importa fișierul `.ics` pe iPhone, se recomandă utilizarea iCloud sau a unei aplicații compatibile cu formatul `.ics`.
+## 📌 Import în Google Calendar / iPhone
+
+📱 **Google Calendar:**
+1. Accesează [calendar.google.com](https://calendar.google.com)
+2. Mergi la „Setări” → „Import & Export”
+3. Alege fișierul `Festivitati Moldova.ics` și importă-l
+
+📱 **iPhone (Apple Calendar):**
+1. Trimite fișierul `.ics` pe iPhone prin e-mail/AirDrop
+2. Apasă pe fișier și selectează „Adaugă în Calendar”
+
+## ℹ️ Observații
+
+- Necesită **Python 3** instalat.
+- Poți modifica numărul de ani generați editând `generate_Easter.py`.
+- Dacă ai întrebări, deschide un „Issue” pe GitHub! 😊
+
+---
+📥 **Descărcare rapidă:** [Festivitati Moldova.ics](https://github.com/storm167/Sarbatori_Moldova/raw/main/Festivitati%20Moldova.ics)
+
+🌍 **Contribuie:** Dacă ai sugestii sau vrei să adaugi alte sărbători, contribuie la proiect! 💡
 
