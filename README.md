@@ -18,7 +18,7 @@ Acest proiect îți permite să adaugi cu ușurință sărbătorile din Moldova 
 Dacă dorești doar să adaugi sărbătorile din Moldova direct în calendarul tău, urmează acești pași simpli:
 
 1️⃣ **Descarcă fișierul Festivitati Moldova.ics**:
-   - ([Descarcă Festivități Moldova.ics](https://raw.githubusercontent.com/storm167/Sarbatori_Moldova/refs/heads/master/Festivități%20Moldova.ics)
+   - [Descarcă Festivități Moldova.ics](https://raw.githubusercontent.com/storm167/Sarbatori_Moldova/refs/heads/master/Festivități%20Moldova.ics
 )
 
 2️⃣ **Importă fișierul în aplicația ta de calendar**:
@@ -36,7 +36,7 @@ Dacă dorești doar să adaugi sărbătorile din Moldova direct în calendarul t
    - Deschide Outlook și navighează la calendar.
    - Selectează „Importă” și alege fișierul Festivitati Moldova.ics.
 
-### Partea 2: Pentru dezvoltatori (vizualizează și modifică codul sursă 💻). Recomandat într-un mediu virtual
+### Partea 2: Pentru dezvoltatori (vizualizează și modifică codul sursă 💻). Recomandat într-un mediu virtual.
 
 Dacă ești un dezvoltator și dorești să explorezi sau să modifici codul sursă, urmează acești pași:
 
