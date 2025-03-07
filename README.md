@@ -2,7 +2,7 @@
 
 ## Descriere
 
-Acest proiect permite generarea și combinarea unui calendar care conține atât sărbători cu dată fixă, cât și sărbători care depind de Paștele ortodox.
+Acest proiect permite generarea și combinarea unui calendar care conține atât sărbători(laice și religioase) cu dată fixă, cât și sărbători care depind de Paștele ortodox.
 
 ## Fișiere incluse
 
