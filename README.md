@@ -47,7 +47,7 @@ python3 merge_calendars.py
 - Dacă ai întrebări, deschide un „Issue” pe GitHub! 😊
 
 ---
-📥 **Descărcare rapidă:** [Festivitati Moldova.ics](https://github.com/storm167/Sarbatori_Moldova/raw/main/Festivitati%20Moldova.ics)
+📥 **Descărcare rapidă:** [Festivitati Moldova.ics](https://github.com/storm167/Sarbatori_Moldova/raw/master/Festivitati%20Moldova.ics)
 
 🌍 **Contribuie:** Dacă ai sugestii sau vrei să adaugi alte sărbători, contribuie la proiect! 💡
 
