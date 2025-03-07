@@ -11,7 +11,7 @@ Acest proiect permite generarea și combinarea unui calendar care conține atât
 - **merge_calendars.py**: Script care combină sărbătorile din `HolidaysOriginal.ics` cu cele generate de `generate_Easter.py` într-un singur fișier de calendar.
 - **Festivitati Moldova.ics**: Fișierul final care conține calendarul complet, inclusiv sărbătorile fixe și cele legate de Paște. Acest fișier poate fi descărcat și utilizat direct de către utilizatori care nu doresc să modifice codul sursă.
 
-## Instrucțiuni de utilizare
+## Instrucțiuni de utilizare 
 
 1. Rulează **generate_Easter.py** în terminal pentru a genera fișierul `.ics` cu datele Paștelui și ale sărbătorilor asociate.
    ```sh
