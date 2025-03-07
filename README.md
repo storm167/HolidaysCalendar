@@ -19,7 +19,7 @@ Fișierul final rezultat poate fi importat direct în aplicațiile de calendar (
 
 1️⃣ **Generează sărbătorile mobile**:
 ```sh
-python3 generate_Easter.py
+python3 generate_easter.py
 ```
 2️⃣ **Combină toate sărbătorile într-un singur fișier**:
 ```sh
