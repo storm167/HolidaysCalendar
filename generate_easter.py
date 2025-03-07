@@ -2,8 +2,8 @@ from datetime import date, timedelta
 import ics
 
 def orthodox_easter(year):
-    """Calcola la data della Pasqua ortodossa in calendario gregoriano"""
-    equinox = date(year, 3, 21)
+    """Calculează data Paștelui ortodox în calendarul gregorian"""
+    equinox = date(year, 3, 21)  # Echinocțiul de primăvară (fix pe 21 martie)
     
     # Determinarea primei luni pline după echinocțiu
     a = year % 19
@@ -18,31 +18,32 @@ def orthodox_easter(year):
     else:
         day = f - 26
 
-    # Luna plină pe care o dorim
+    # Calculul datei lunii pline pascale
     lunar_full_moon = date(year, 4, day)
 
-    # Paștele ortodox va fi duminica imediat următoare lunii pline
-    # Dacă luna plină cade într-o duminică, Paștele va fi în următoarea duminică
+    # Paștele ortodox este în prima duminică după luna plină pascală
+    # Dacă luna plină cade într-o duminică, Paștele se mută în duminica următoare
     easter_day = lunar_full_moon + timedelta(days=(6 - lunar_full_moon.weekday()))
     
     return easter_day
 
 
-
 def generate_orthodox_easter_ics(start_year, end_year, filename="paste_ortodox.ics"):
-    """Genera un file .ics con le date della Pasqua ortodossa e altre festività collegate"""
+    """Generează un fișier .ics cu datele Paștelui ortodox și alte sărbători asociate"""
     calendar = ics.Calendar()
     
     for year in range(start_year, end_year + 1):
         easter = orthodox_easter(year)
         
+        # Listează sărbătorile legate de Paște
         events = [
-            ("Paște Ortodox", easter),
-            ("Intrarea Domnului în Ierusalim", easter - timedelta(days=7)),  # 7 giorni prima di Pasqua
-            ("Înălțarea Domnului", easter + timedelta(days=40)), # 40 giorni dopo Pasqua
-            ("Ziua Sfintei Treimi", easter + timedelta(days=50))  # 50 giorni dopo Pasqua
+            ("Paște Ortodox", easter),  # Ziua Paștelui
+            ("Intrarea Domnului în Ierusalim", easter - timedelta(days=7)),  # 7 zile înainte de Paște (Floriile)
+            ("Înălțarea Domnului", easter + timedelta(days=40)),  # 40 de zile după Paște
+            ("Ziua Sfintei Treimi", easter + timedelta(days=50))  # 50 de zile după Paște (Rusaliile)
         ]
         
+        # Adaugă fiecare sărbătoare în calendar
         for name, date_event in events:
             event = ics.Event()
             event.name = name
@@ -50,10 +51,11 @@ def generate_orthodox_easter_ics(start_year, end_year, filename="paste_ortodox.i
             event.description = f"Sărbătoare ortodoxă - {name}"
             calendar.events.add(event)
     
+    # Salvează calendarul într-un fișier .ics
     with open(filename, "w") as f:
         f.write(str(calendar))
     
-    print(f"File {filename} generato correttamente!")
+    print(f"Fișierul {filename} a fost generat cu succes!")
 
-# Esempio di utilizzo
+# Exemplu de utilizare
 generate_orthodox_easter_ics(2025, 2050)
