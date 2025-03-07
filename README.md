@@ -9,6 +9,7 @@ Acest proiect permite generarea și combinarea unui calendar care conține atât
 - **HolidaysOriginal.ics**: Conține sărbătorile cu dată fixă, care nu se schimbă în fiecare an.
 - **generate_Easter.py**: Un algoritm care generează un fișier `.ics` cu datele Paștelui ortodox și ale sărbătorilor asociate pentru următorii ani. Numărul exact de ani generați depinde de parametrii scriptului.
 - **merge_calendars.py**: Script care combină sărbătorile din `HolidaysOriginal.ics` cu cele generate de `generate_Easter.py` într-un singur fișier de calendar.
+- **Festivitati Moldova.ics**: Fișierul final care conține calendarul complet, inclusiv sărbătorile fixe și cele legate de Paște. Acest fișier poate fi descărcat și utilizat direct de către utilizatori care nu doresc să modifice codul sursă.
 
 ## Instrucțiuni de utilizare
 
