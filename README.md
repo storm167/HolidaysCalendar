@@ -13,7 +13,7 @@ Acest proiect îți permite să adaugi cu ușurință sărbătorile din Moldova 
 
 ## Cum să adaugi sărbătorile din Moldova în Google Calendar, Apple Calendar sau Outlook? 🗓️
 
-### Partea 1: Pentru utilizatorii finali (adăugare rapidă în calendar) 🏃‍♂️
+### Partea 1: Pentru utilizatorii finali (adăugare rapidă în calendar) 🏃‍♂️ 
 
 Dacă dorești doar să adaugi sărbătorile din Moldova direct în calendarul tău, urmează acești pași simpli:
 
