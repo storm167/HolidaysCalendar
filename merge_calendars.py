@@ -18,4 +18,4 @@ def merge_ics_files(base_ics, easter_ics, output_ics):
     print(f"Fișierul combinat a fost salvat ca {output_ics}")
 
 # Exemplu de utilizare
-merge_ics_files("festivitati_Original.ics", "paste_ortodox.ics", "calendar_actualizat.ics")
+merge_ics_files("festivitati_Original.ics", "paste_ortodox.ics", "Festivități Moldova.ics")
