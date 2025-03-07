@@ -18,7 +18,7 @@ Acest proiect îți permite să adaugi cu ușurință sărbătorile din Moldova 
 Dacă dorești doar să adaugi sărbătorile din Moldova direct în calendarul tău, urmează acești pași simpli:
 
 1️⃣ **Descarcă fișierul Festivitati Moldova.ics**:
-   - [Descarcă Festivitati Moldova.ics]([Descarcă Festivități Moldova.ics](https://github.com/storm167/Sarbatori_Moldova/raw/main/Festivitati%20Moldova.ics)
+   - [Descarcă Festivitati Moldova.ics]([Descarcă Festivități Moldova.ics](https://github.com/storm167/Sarbatori_Moldova/raw/main/Festivități%20Moldova.ics)
 )
 
 2️⃣ **Importă fișierul în aplicația ta de calendar**:
@@ -70,7 +70,7 @@ Vrei să adaugi noi sărbători sau să îmbunătățești proiectul? Poți cont
 ## Căutări populare 🔍:
 
 - Calendar Moldova 2025 📅
-- Sărbători religioase Moldova ✝️
+- Sărbători religioase Moldova ☦️
 - Paște ortodox Moldova 🕊️
 - Adaugă sărbători în Google Calendar 📲
 - Calendar național Moldova ICS 🗓️
